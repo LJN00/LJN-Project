@@ -37,8 +37,9 @@
 </head>
 <body>
 	
+	
     <form defaultbutton="SubmitButton" id="form1" runat="server">
-
+<div>
         <userControls:Header ID="Header1" runat="server" />
         <table class="auto-style1">
 			<tr>
@@ -104,6 +105,8 @@
 		</table>
         <div>
         </div>
+	</div>
     </form>
+		
 </body>
 </html>

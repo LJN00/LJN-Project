@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="UsingWebControls.Default1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title> Web Control</title>
+    <asp:ContentPlaceHolder ID="head" runat="server"/>
+ 
+</head>
+<body>
+	<!--Header-->
+	<div style="float:left;width:50%;text-align:left;font-size:16pt;font-weight:bold;">
+		Welcome to Wizlearn Technology
+		</div>
+	<div style="float:right;width:47%;text-align:right;">
+		<asp:Label ID="DateLabel" runat="server" />
+	</div>
+	<br/>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="cphMain" runat="server"/>
+           
+        </div>
+    </form>
+	<br/>
+	<!--Footer-->
+	&copy;2018
+</body>
+</html>
